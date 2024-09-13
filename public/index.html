@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Playlist Downloader</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>YouTube Playlist Downloader</h1>
+        <form id="downloadForm">
+            <label for="playlistUrl">Enter YouTube Playlist URL:</label>
+            <input type="text" id="playlistUrl" name="playlistUrl" required>
+            <button type="submit">Download</button>
+        </form>
+        <div id="statusMessage"></div>
+        <div id="progressBar">
+            <div id="progress"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
